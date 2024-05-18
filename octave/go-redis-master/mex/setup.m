@@ -1,7 +1,7 @@
 %% setup 0.2
 
 if (0 == exist('LIBPATH'))
-  LIBPATH = '/Users/federico.bindi/anaconda3/envs/collaborazione_terna/lib/python3.10/site-packages/hiredis'; % not used yet
+  LIBPATH = '/opt/homebrew/opt/hiredis'; % not used yet
 end
 
 % error message
