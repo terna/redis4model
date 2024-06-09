@@ -9,3 +9,5 @@ redis_key = 'octave_random_data';
 redis_command = ['echo "', data_str, '" | /opt/homebrew/bin/redis-cli -x set ', redis_key];
 system(redis_command);
 
+disp(data_str)
+

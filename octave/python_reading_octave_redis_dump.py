@@ -23,6 +23,6 @@ def read_data():
         print("No data found from Octave")
 
 # Write and read data
-write_data()
+#write_data()
 time.sleep(1)  # Wait for Octave to write data
 read_data()
